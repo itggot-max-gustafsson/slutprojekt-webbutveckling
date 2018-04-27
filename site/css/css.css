@@ -1,0 +1,14 @@
+body {
+    background-color: maroon;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+}
+
+header {
+    grid-column: 1/12;
+    grid-row: 1/7;
+    background: maroon;
+}
